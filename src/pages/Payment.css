@@ -1,0 +1,133 @@
+.payment-top  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background-color: white;
+    width: 90vw;
+    margin-left: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 7vh;
+    position: relative;
+    
+  }
+
+  .when{
+    margin-top: 10px ;
+    margin-left: 10px;
+    position: absolute;
+    
+  }
+
+  .search-pay-page {
+    position: absolute;
+    right: 0; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 60px;
+    margin-top: 7px;
+  }
+
+  .search-pay-page input[type="search"] {
+    padding-right: 30px; 
+    padding-left: 10px;
+    border-radius: 50px;
+    height: 4vh;
+    border: 1px solid grey;
+  }
+  .search-pay-page svg {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    color: gray;
+  }
+ 
+
+  .table-pay{
+    margin-top: 25px;
+    
+  }
+
+   
+ .payment-table .ant-table-cell {
+    text-align: left;
+    font-size: smaller;
+    
+  }
+  
+  .payment-table .ant-table-tbody .ant-table-cell {
+    background-color: white;
+  }
+  
+  .payment-table .ant-table-cell:nth-child(1) {
+    width: 4%; 
+    
+  }
+  
+  .payment-table .ant-table-cell:nth-child(2){
+    width: 12%;
+    padding: 8px;
+  }
+  
+  .payment-table .ant-table-cell:nth-child(3), 
+  .payment-table .ant-table-cell:nth-child(4){
+    width: 15% ;
+    padding: 8px;
+  }
+  
+  .payment-table .ant-table-cell:nth-child(5)
+  {
+    width: 5%;
+    
+  }
+  
+  .payment-table .ant-table-cell:nth-child(6),
+  .payment-table .ant-table-cell:nth-child(7),
+  .payment-table .ant-table-cell:nth-child(8),
+  .payment-table .ant-table-cell:nth-child(9)
+  .payment-table .ant-table-cell:nth-child(10),
+  .payment-table .ant-table-cell:nth-child(11),
+  .payment-table .ant-table-cell:nth-child(12), 
+  .payment-table .ant-table-cell:nth-child(13),
+  .payment-table .ant-table-cell:nth-child(14), 
+  .payment-table .ant-table-cell:nth-child(15),
+  .payment-table .ant-table-cell:nth-child(16){
+    width: 5%;
+    
+  }
+  
+  
+  
+  .payment-table .ant-table-thead .ant-table-cell {
+    background-color:#313a46; 
+    color: white; 
+  }
+  
+  .payment-table .ant-table-column-sorter  {
+    color: white; 
+  }
+  
+  .payment-table .ant-table-column-sorter-up svg,
+  .payment-table .ant-table-column-sorter-down svg {
+    width: 9px; 
+    height: 8px; 
+    
+  }
+  
+  
+  .payment-table .ant-table-tbody .ant-table-cell:last-child svg:not(:last-child) {
+    margin-right: 8px; 
+    
+  }
+  
+  .payment-table .ant-table-thead .ant-table-cell:hover {
+    background-color: #313a46 !important;
+    color: white !important;
+  }
+  
+  
+  
+  .ant-table-wrapper .ant-table-thead th.ant-table-column-sort {
+    background-color: #313a46;
+  
+  }

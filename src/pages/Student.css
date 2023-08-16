@@ -1,0 +1,178 @@
+.student-page .top-stud {
+    display: flex;
+    border: 1px solid white;
+    height: 7vh;
+    flex: 1;
+    width: 90vw;  
+    background-color:#FFF;
+    margin-left: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.top-stud .add-btn {
+  display: flex;
+  height: 4vh;
+  width:13vw;
+  margin: auto 0;
+  margin-left: 10px;
+  background: #ecfbef;
+  border-color:  #ecfbef ;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+  padding:5px;
+  font-size:medium;
+  font-weight: bold;
+  color: #313a46;
+  gap: 6px;
+  align-items: center;
+}
+
+.toggle-off{
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  align-items: center ;
+  justify-content: center;
+  margin-left: 43rem;
+  color: gray;
+}
+
+.search-stud{
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 18px;
+}
+
+.search-stud input[type="search"] {
+  padding-right: 30px; 
+  padding-left: 10px;
+  border-radius: 50px;
+  height: 4vh;
+  border: 1px solid grey;
+  
+}
+
+.search-stud svg {
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%);
+  color: gray;
+}
+
+.custom-table .ant-table-cell {
+  text-align: left;
+  font-size: smaller;
+  margin-left: 18.5rem;
+}
+
+.custom-table .ant-table-tbody .ant-table-cell {
+  background-color: white;
+}
+
+.custom-table .ant-table-cell:nth-child(1) {
+  width: 5%; 
+}
+
+.custom-table .ant-table-cell:nth-child(2),
+.custom-table .ant-table-cell:nth-child(4){
+  width: 12%;
+}
+.custom-table .ant-table-cell:nth-child(3)
+ {
+  width: 14%;
+}
+.custom-table .ant-table-cell:nth-child(5),
+.custom-table .ant-table-cell:nth-child(6) {
+  width: 5%;
+}
+.custom-table .ant-table-cell:nth-child(7),
+.custom-table .ant-table-cell:nth-child(8) {
+  width: 10%; 
+}
+
+.custom-table .ant-table-thead .ant-table-cell {
+  background-color:#313a46; 
+  color: white; 
+}
+
+.custom-table .ant-table-column-sorter  {
+  color: white; 
+}
+
+.custom-table .ant-table-column-sorter-up svg,
+.custom-table .ant-table-column-sorter-down svg {
+  width: 9px; 
+  height: 8px; 
+  
+}
+
+
+.custom-table .ant-table-tbody .ant-table-cell:last-child svg:not(:last-child) {
+  margin-right: 8px; 
+  
+}
+
+.custom-table .ant-table-thead .ant-table-cell:hover {
+  background-color: #313a46 !important;
+  color: white !important;
+}
+
+
+
+.ant-table-wrapper .ant-table-thead th.ant-table-column-sort {
+  background-color: #313a46;
+
+}
+
+.ant-table .ant-table-tbody .ant-table-row td:nth-child(9) {
+  width: 91.06px; 
+  height: 51px; 
+  cursor: pointer;
+  text-align: right;
+}
+
+.card-table {
+  display: flex;
+}
+
+h3{
+  font-size: small;
+  color: grey;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.card-h3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-stud {
+  display: flex;
+  
+}
+
+ div.colored{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgd(0,0,0,0);
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+ }
+.red{
+   font-size:x-large ;
+}
+.green{
+  font-size:x-large ;
+}
+.red2{
+  font-size: smaller;
+}
+.green2{
+  font-size: smaller;
+}

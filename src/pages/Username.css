@@ -1,0 +1,41 @@
+.user-container{
+  margin-top: 5rem;
+  width: 30vw;
+  padding: 20px;
+  background-color:#321A62 ;
+  border-radius: 20px;
+}
+.username1{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #412675;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.user-bold{
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+}
+.fetch{
+  color: white;
+  font-size: x-large;
+}
+.signout{
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.sign{
+  color: white;
+  font-size: xx-large;
+}
+.user-btn{
+  background-color: #392365;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}

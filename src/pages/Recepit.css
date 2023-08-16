@@ -1,0 +1,154 @@
+.report {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  background-color: white;
+  width: 90vw;
+  margin-left: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 7vh;
+  position: relative;
+}
+
+.button-group {
+  text-align: left;
+  margin-left: 5px;
+  position: absolute;
+}
+
+.all{
+  padding: 3px 15px;
+  
+}
+
+.off {
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-small;
+  margin-left: 38%;
+}
+
+.date {
+  position: absolute; 
+  left: 44.5%;
+  transform: translateX(-50%); 
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-recepit-page {
+  position: absolute;
+  right: 0; 
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.search-recepit-page input[type="search"] {
+  padding-right: 30px; 
+  padding-left: 10px;
+  border-radius: 50px;
+  height: 4vh;
+  border: 1px solid grey;
+}
+.search-recepit-page svg {
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%);
+  color: gray;
+}
+
+ .table-report {
+  margin-top: 20px;
+  
+ }
+  
+ 
+ .report-table .ant-table-cell {
+  text-align: left;
+  font-size: smaller;
+  
+}
+
+.report-table .ant-table-tbody .ant-table-cell {
+  background-color: white;
+}
+
+.report-table .ant-table-cell:nth-child(1) {
+  width: 4%; 
+  padding-right: 4px;
+}
+
+.report-table .ant-table-cell:nth-child(2){
+  width: 15%;
+}
+
+.report-table .ant-table-cell:nth-child(3), 
+.report-table .ant-table-cell:nth-child(4){
+  width: 3% ;
+  padding: 8px;
+}
+
+.report-table .ant-table-cell:nth-child(5)
+{
+  width: 5%;
+  padding: 8px;
+}
+
+.report-table .ant-table-cell:nth-child(6),
+.report-table .ant-table-cell:nth-child(7),
+.report-table .ant-table-cell:nth-child(8),
+.report-table .ant-table-cell:nth-child(10){
+  width: 8%;
+  padding: 8px;
+}
+
+.report-table .ant-table-tbody .ant-table-cell:nth-child(9) {
+  width: 24% !important;
+  text-align: left !important;
+}
+
+
+.report-table .ant-table-thead .ant-table-cell {
+  background-color:#313a46; 
+  color: white; 
+}
+
+.report-table .ant-table-column-sorter  {
+  color: white; 
+}
+
+.report-table .ant-table-column-sorter-up svg,
+.report-table .ant-table-column-sorter-down svg {
+  width: 9px; 
+  height: 8px; 
+  
+}
+
+
+.report-table .ant-table-tbody .ant-table-cell:last-child svg:not(:last-child) {
+  margin-right: 8px; 
+  
+}
+
+.report-table .ant-table-thead .ant-table-cell:hover {
+  background-color: #313a46 !important;
+  color: white !important;
+}
+
+
+
+.ant-table-wrapper .ant-table-thead th.ant-table-column-sort {
+  background-color: #313a46;
+
+}
+
+.ant-table .ant-table-tbody .ant-table-row td:nth-child(11) {
+  width: 91.06px; 
+  height: 51px; 
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+}

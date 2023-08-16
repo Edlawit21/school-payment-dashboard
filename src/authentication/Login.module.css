@@ -1,0 +1,59 @@
+
+.login-container{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.login-h1{
+    text-align: center;
+    padding: 60px 0 10px 0 ;
+    border-bottom: 1px solid  rgb(103, 96, 96);
+}
+.h1-log{
+    width: 26rem;
+    margin-left: -6rem;
+    margin-bottom: 30px;
+}
+
+
+.input-container input{
+    float: right;
+    border: 1px solid rgb(103, 96, 96);
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.input-container{
+    margin: 4px;
+}
+
+
+.log-button{
+    background-color: #321A62;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    margin-top: 30px;
+    font-size: large;
+}
+.school-year{
+    display: flex;
+    margin-top: 88px;  
+    background-color: #321A62;
+}
+
+.log-label{
+    color: grey;
+    
+}

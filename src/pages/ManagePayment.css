@@ -1,0 +1,132 @@
+
+.manage-payment-h2{
+    margin-left: 35rem;
+    margin-bottom: 9px;
+}
+  .pay-reason{
+    margin-left: 120px;
+    margin-right: 60px;
+    background-color: white;
+    height: 7vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-payment{
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .btn-payment.btn1{
+    margin-left: 35px;
+  }
+  .entry-payment{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 130px;
+    margin-bottom: 3px;
+  }
+  .entries-manage{
+    margin-left: -30px!important;
+    margin-right: 5px;
+  }
+  
+  .search-pay {
+    position: absolute;
+    right: 0; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 60px;
+    
+  }
+  .search-pay input[type="search"] {
+    padding-right: 30px; 
+    padding-left: 10px;
+    border-radius: 50px;
+    height: 4vh;
+    border: 1px solid grey;
+  }
+  .search-pay svg {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    color: gray;
+  }
+  
+   
+ .manage-paying .ant-table-cell {
+    text-align: left;
+    font-size: smaller;
+    
+  }
+  
+  .manage-paying .ant-table-tbody .ant-table-cell {
+    background-color: white;
+  }
+  
+  .manage-paying .ant-table-cell:nth-child(1) {
+    width: 4%; 
+    
+  }
+  
+  
+  .manage-paying .ant-table-cell:nth-child(2),
+  .manage-paying .ant-table-cell:nth-child(3), 
+  .manage-paying .ant-table-cell:nth-child(4){
+    width: 15% ;
+    padding: 8px;
+  }
+  
+  .manage-paying .ant-table-cell:nth-child(5),
+  .manage-paying .ant-table-cell:nth-child(6),
+  .manage-paying .ant-table-cell:nth-child(7),
+  .manage-paying .ant-table-cell:nth-child(8),
+  .manage-paying .ant-table-cell:nth-child(9)
+  .manage-paying .ant-table-cell:nth-child(10),
+  .manage-paying .ant-table-cell:nth-child(11),
+  .manage-paying .ant-table-cell:nth-child(12), 
+  .manage-paying .ant-table-cell:nth-child(13),
+  .manage-paying .ant-table-cell:nth-child(14), 
+  .manage-paying .ant-table-cell:nth-child(15),
+  .manage-paying .ant-table-cell:nth-child(16){
+    width: 5%;
+    
+  }
+  
+  
+  .manage-paying .ant-table-thead .ant-table-cell {
+    background-color:#313a46; 
+    color: white; 
+  }
+  
+  .manage-paying .ant-table-column-sorter  {
+    color: white; 
+  }
+  
+  .manage-paying .ant-table-column-sorter-up svg,
+  .manage-paying .ant-table-column-sorter-down svg {
+    width: 9px; 
+    height: 8px; 
+    
+  }
+  
+  
+  .manage-paying .ant-table-tbody .ant-table-cell:last-child svg:not(:last-child) {
+    margin-right: 8px; 
+    
+  }
+  
+  .manage-paying .ant-table-thead .ant-table-cell:hover {
+    background-color: #313a46 !important;
+    color: white !important;
+  }
+  
+  
+  
+  .ant-table-wrapper .ant-table-thead th.ant-table-column-sort {
+    background-color: #313a46;
+  
+  }

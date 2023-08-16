@@ -1,0 +1,22 @@
+.info-top{
+    display: flex;
+    margin-top: 60px;
+}
+.first-info{
+    font-size: x-small;
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    color: gray;
+    margin-left: 30px;
+}
+.second-info{
+    display: flex;
+    font-size: medium;
+    font-weight: bolder;
+    color: #313A46;
+}
+.paymenth{
+    margin-top: 16px;
+    margin-left: 32rem;
+}

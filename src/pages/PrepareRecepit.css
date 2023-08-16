@@ -1,0 +1,89 @@
+.top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.serial-input{
+    width: 20pvw;
+    float: right;
+}
+.drop-recepit{
+    width: 100vw;
+}
+.head{
+    margin-left: 32rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+hr{
+    width: 88vw;
+    margin:auto;
+    margin-left: 130px;
+    margin-bottom: 25px;
+}
+.recepit-body{
+    margin-left: 130px;
+}
+.recepit-label {
+    font-weight: bold;
+    margin-right: 15px; 
+  }
+.from{
+    width: 83vw;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.sum{
+    width: 60vw;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.sum-birr{
+   display: flex;
+   gap: 10px;
+   padding: 5px;
+   
+}
+.birr{
+    width: 14vw;
+    padding: 5px;
+}
+.for{
+    margin-left: 10px;
+    width: 83vw;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.mpay{
+    display: flex;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.grader{
+    width: 20vw;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.reference{
+    margin-right: 23rem;
+    padding: 3px;
+}
+.radio-recepit{
+    margin-right: 13px;
+}
+.butn{
+    margin-left: 130px;
+    margin-top: 25px;
+    padding: 15px;
+    cursor: pointer;
+    width: 150px;
+    font-size: larger;
+    background-color: #FF9700;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}

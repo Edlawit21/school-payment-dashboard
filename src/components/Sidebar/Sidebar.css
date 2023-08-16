@@ -1,0 +1,73 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 100vh;
+    border-radius: 3px;
+    background-color: #313a46;
+    padding-top: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: white; 
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username,
+  .student,
+  .recepit,
+  .report,
+  .payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    text-decoration: none;
+    color: inherit; 
+    padding: 5px;
+    transition: background-color 0.2s, color 0.2s;
+    width: 100vw;
+  }
+  
+  .username .user,
+  .student .user,
+  .recepit .user,
+  .report .user,
+  .payment .user {
+    margin-top: 5px;
+  }
+
+
+  .username:hover,
+  .student:hover,
+  .recepit:hover,
+  .report:hover,
+  .payment:hover,
+  .username:focus,
+  .student:focus,
+  .recepit:focus,
+  .report:focus,
+  .payment:focus {
+    background-color: white;
+    color: #313a46; 
+  }
+  
+
+  .username.selected,
+  .student.selected,
+  .recepit.selected,
+  .report.selected,
+  .payment.selected {
+    background-color: white;
+    color: #313a46; 
+  }

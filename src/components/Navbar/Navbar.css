@@ -1,0 +1,21 @@
+li.ant-menu-overflow-item.ant-menu-submenu.ant-menu-submenu-horizontal::after {
+    border-bottom: none;
+}
+
+span.ant-menu-title-content {
+    color: rgb(134, 131, 131);
+}
+
+span.ant-menu-title-content:hover {
+    color: black;
+    
+}
+
+li.ant-menu-overflow-item.ant-menu-item.ant-menu-item-only-child::after {
+    border-bottom: none;
+}
+
+select.select-nav{
+    margin-left: 50rem;
+}
+

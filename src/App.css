@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #FBFBFF;
+  overflow: hidden;
+}
+
+.sidebar-container {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.pages {
+  flex: 1; 
+  padding: 15px;
+ 
+}
+
+.navbar{
+  
+  width: 100%;
+}
+
+
